@@ -1,0 +1,11 @@
+.idea/
+.awcache
+dist
+node_modules
+styleguide
+output
+.DS_Store
+id_rsa
+./tests/e2e/output
+./tests/e2e/node_modules
+.awcache
