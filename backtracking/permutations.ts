@@ -3,9 +3,9 @@ const permutations = (string: string): Array<string> | string => {
 		return string;
 	}
 
-	let permutationsArray = [];
+	let permutationsArray: Array<string> = [];
 
-	for (let i = 0; i < string.length; i++){
+	for (let i = 0; i < string.length; i++) {
 		let char = string[i];
 		let remainingChars = string.slice(0, i) + string.slice(i + 1);
 
